@@ -134,7 +134,7 @@ func TestGrafanaCountUnauthorized(t *testing.T) {
 	}
 
 	if err == nil {
-		t.Fatal("expected an error but didn't recieve one")
+		t.Fatal("expected an error but didn't get one")
 	}
 
 	switch errType := err.(type) {

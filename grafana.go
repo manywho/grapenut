@@ -20,7 +20,7 @@ type grafanaError struct {
 }
 
 func (e *grafanaError) Error() string {
-	return fmt.Sprintf("Recieved a %d status from grafana: %s", e.code, e.msg)
+	return fmt.Sprintf("Received a %d status from grafana: %s", e.code, e.msg)
 }
 
 func getActiveAlertCount(cfg grafanaConfig) (count int, err error) {

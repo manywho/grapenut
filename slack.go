@@ -20,7 +20,7 @@ type slackError struct {
 }
 
 func (e *slackError) Error() string {
-	return fmt.Sprintf("Recieved a %d status from slack: %s", e.code, e.msg)
+	return fmt.Sprintf("Received a %d status from slack: %s", e.code, e.msg)
 }
 
 func postNotification(cfg slackConfig, grafanaURL string, alertCount int) (err error) {
