@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/manywho/grapenut.svg?branch=master)](https://travis-ci.org/manywho/grapenut)
 [![Go Report Card](https://goreportcard.com/badge/github.com/manywho/grapenut)](https://goreportcard.com/report/github.com/manywho/grapenut)
+[![Docker Repository on Quay](https://quay.io/repository/manywho/grapenut/status "Docker Repository on Quay")](https://quay.io/repository/manywho/grapenut)
 
 Grapenut is a simple program for sending a count of the currently active alerts in grafana to slack. Currently, if there are no active alerts, Grapenut will skip sending the notification to slack to avoid spam.
 
