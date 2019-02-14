@@ -31,3 +31,10 @@ To build the binary, you can use the Makefile build target:
 ```
 make build
 ```
+
+## Running the Docker Image
+To run the docker image, set the environment variables either with the `-e` or `--env-file` flags:
+
+```
+docker run -ti --rm --env-file /tmp/grapenut.env quay.io/manywho/grapenut:$VERSION
+```
